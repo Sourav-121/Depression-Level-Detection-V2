@@ -10,7 +10,7 @@ warnings.filterwarnings('ignore')
 
 # Page configuration
 st.set_page_config(
-    page_title="Depression Detection DSS",
+    page_title="Decision Support System for Depression Level Analysis",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -234,7 +234,7 @@ def preprocess_input(input_data):
     return df_pred
 
 # Header
-st.markdown("<h1 class='main-header'> Depression Level Detection DSS</h1>", unsafe_allow_html=True)
+st.markdown("<h1 class='main-header'>Decision Support System for Depression Level Analysis</h1>", unsafe_allow_html=True)
 st.markdown("<p class='sub-header'>Early Detection & Personalized Recommendations</p>", unsafe_allow_html=True)
 
 # Sidebar
@@ -741,4 +741,5 @@ st.markdown("""
     <p> Depression Level Detection DSS | For educational and screening purposes only</p>
     <p> If you're in crisis, please call your local emergency services or a suicide prevention hotline immediately.</p>
 </div>
+
 """, unsafe_allow_html=True)
